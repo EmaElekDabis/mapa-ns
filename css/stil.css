@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Acme', sans-serif;
+  background-color: #ecaa93; }
+  body:before, body:after {
+    content: "";
+    display: table; }
+  body:after {
+    clear: both; }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 30px; }
+
+.listaNaselja {
+  float: left;
+  width: 50%; }
+  .listaNaselja ul {
+    list-style: none;
+    width: 60%;
+    margin: 40px auto; }
+    .listaNaselja ul li {
+      padding: 10px;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin: 10px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold; }
+      .listaNaselja ul li:hover {
+        background-color: #d18265; }
+
+.mapa {
+  float: right;
+  width: 50%; }
+  .mapa img {
+    width: 90%;
+    padding: 20px; }
+
+/*# sourceMappingURL=stil.css.map */

@@ -1,0 +1,52 @@
+@import 'miksini';
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+@include globalni;
+
+body {
+    // padding: 0 150px;
+    font-family: 'Acme', sans-serif;
+    background-color: rgb(236, 170, 147);
+    @include clearfix;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.listaNaselja {
+    float: left;
+    width: 50%;
+
+    ul {
+        list-style: none;
+        width: 60%;
+        margin: 40px auto;
+
+        li {
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 15px;
+            margin: 10px;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+
+            &:hover {
+                background-color: rgb(209, 130, 101);
+            }
+        }
+    }
+}
+
+.mapa {
+    float: right;
+    width: 50%;
+    
+    img {
+        width: 90%;
+        padding: 20px;
+    }
+}
